@@ -1,6 +1,13 @@
 # Usage-Based Invoicing System
 
+**Repository**: [https://github.com/akashkore5/CodingTask-ThinkBridge](https://github.com/akashkore5/CodingTask-ThinkBridge)
+
 A robust, modular console application built with TypeScript and Node.js that processes customer usage data, validates inputs, and generates detailed invoices based on tier-based pricing rules.
+
+## 📸 Output Snapshot
+
+![Terminal Execution Output](ScreenShots/image.png)
+
 
 ## 🚀 Features
 
@@ -42,8 +49,8 @@ A robust, modular console application built with TypeScript and Node.js that pro
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-link>
-   cd coding-task
+   git clone https://github.com/akashkore5/CodingTask-ThinkBridge.git
+   cd CodingTask-ThinkBridge
    ```
 2. Install dependencies:
 
