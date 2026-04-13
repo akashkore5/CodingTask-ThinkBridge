@@ -1,0 +1,35 @@
+[
+  {
+    "CustomerId": "CUST001",
+    "API_Calls": 8500,
+    "Storage_GB": 45.5,
+    "Compute_Minutes": 150
+  },
+  {
+    "CustomerId": "CUST002",
+    "API_Calls": 12500,
+    "Storage_GB": 120,
+    "Compute_Minutes": 310
+  },
+  {
+    "CustomerId": "CUST003",
+    "API_Calls": "not_a_number",
+    "Storage_GB": 10,
+    "Compute_Minutes": 90
+  },
+  {
+    "CustomerId": "CUST004",
+    "API_Calls": 18000,
+    "Storage_GB": null,
+    "Compute_Minutes": 600
+  },
+  {
+    "CustomerId": null,
+    "API_Calls": 1000,
+    "Storage_GB": 5,
+    "Compute_Minutes": 50
+  },
+  {
+    "CustomerId": "CUST006"
+  }
+]

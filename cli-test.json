@@ -1,0 +1,8 @@
+[
+  {
+    "CustomerId": "CLI_TEST",
+    "API_Calls": 1000,
+    "Storage_GB": 10,
+    "Compute_Minutes": 10
+  }
+]
