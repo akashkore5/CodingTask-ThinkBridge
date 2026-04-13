@@ -23,12 +23,12 @@ A robust, modular console application built with TypeScript and Node.js that pro
 
 ## 💰 Pricing Logic
 
-| Service | Rate |
-| :--- | :--- |
-| **API Calls** | First 10,000: $0.01/call |
-| | Above 10,000: $0.008/call |
-| **Storage** | $0.25 per GB |
-| **Compute Time** | $0.05 per minute |
+| Service                | Rate                      |
+| :--------------------- | :------------------------ |
+| **API Calls**    | First 10,000: $0.01/call  |
+|                        | Above 10,000: $0.008/call |
+| **Storage**      | $0.25 per GB              |
+| **Compute Time** | $0.05 per minute          |
 
 ## 🏁 Getting Started
 
@@ -40,12 +40,13 @@ A robust, modular console application built with TypeScript and Node.js that pro
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <your-repo-link>
    cd coding-task
    ```
-
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -55,16 +56,19 @@ A robust, modular console application built with TypeScript and Node.js that pro
 You can run the application using the default `usage-data.json` file or provide a custom path.
 
 **Option 1: Default run**
+
 ```bash
 npm start
 ```
 
 **Option 2: Custom JSON file**
+
 ```bash
 npm start -- usage-data.json
 ```
 
 **Option 3: Direct execution with npx**
+
 ```bash
 npx ts-node src/index.ts usage-data.json
 ```
@@ -72,6 +76,7 @@ npx ts-node src/index.ts usage-data.json
 ### Running Tests
 
 To verify the calculation logic and robustness of the system:
+
 ```bash
 npm test
 ```
@@ -93,9 +98,11 @@ npm test
 ## 🛡️ Error Handling
 
 The system is designed to be "resilient". If an entry in the JSON file is missing a required field or contains invalid data types (e.g., a string where a number should be), the application will:
+
 1. Log a warning describing the issue.
 2. Skip the invalid entry.
 3. Continue processing the remaining valid entries.
 
 ---
+
 *Developed as part of a technical coding challenge.*
