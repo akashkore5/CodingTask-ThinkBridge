@@ -64,6 +64,11 @@ npm start
 npm start -- usage-data.json
 ```
 
+**Option 3: Direct execution with npx**
+```bash
+npx ts-node src/index.ts usage-data.json
+```
+
 ### Running Tests
 
 To verify the calculation logic and robustness of the system:
